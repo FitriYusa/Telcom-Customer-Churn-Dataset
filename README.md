@@ -1,5 +1,3 @@
-# Telcom-Customer-Churn-Dataset
-
 # Customer Churn Prediction using Machine Learning
 
 ## Overview
