@@ -81,3 +81,16 @@ Evaluated using:
 Identified the most influential factors driving customer churn.
 
 ---
+
+#### Result
+
+- **Accuracy:** 79%
+- **Precision (Churn = 1):** 62%
+- **Recall (Churn = 1):** 52%
+- **F1-score (Churn = 1):** 56%
+
+Based on the above evaluation, the model performance on churn prediction (Class 1) shows: 
+- Lower recall (52%) which indicates that some churn cases are missed.
+- Precision (62%) shows a relatively okay correctness when predicting churn
+
+On the bussiness perspective, this model is useful for general churn trends but for real-world use, missing a churn customer indicates a loss for business.
